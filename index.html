@@ -7,8 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My portfolio</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-</head>
+    </head>
 
 <body>
 
@@ -21,47 +23,112 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Services
+                            </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </li>
+                    <a class="nav-link" href="#">Portfolio <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-                </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
+                    <a class="nav-link" href="#">About me</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
+                    <a class="nav-link disabled" href="#">Get in touch</a>
                 </li>
             </ul>
         </div>
     </nav>
 
     <div class="jumbotron">
-        <h1 class="display-3">Hello, world!</h1>
-        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-        <hr class="my-4">
+        <h1 class="display-3">LET'S CREATE A WEBSITE</h1>
+        <p class="lead">Hi, I'm passionate developer and I help create <strong>awesome</strong> websites</p>
+        <br>
         <p class="lead">
-            <a class="btn btn-success btn-lg" href="#" role="button">Buy me beer!</a>
-            <a class="btn btn-light btn-lg" href="#" role="button">My services</a>
+            <a class="btn btn-success btn-lg" href="#" role="button">I want one</a>
+            <a class="btn btn-light btn-lg" href="#" role="button">Learn more</a>
         </p>
     </div>
-
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-6 col-md-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem dolor iure assumenda a, earum sequi magnam eaque odio aliquam, itaque impedit repellat eveniet esse labore aliquid officia in, alias facilis?</div>
-            <div class="col-sm-6 col-md-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem dolor iure assumenda a, earum sequi magnam eaque odio aliquam, itaque impedit repellat eveniet esse labore aliquid officia in, alias facilis?
+    <div class="container">
+        <div class="section-title">
+            <h2 class="text-center">I CAN HELP YOU WITH</h2>
+            <div class="border"></div>
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2 text-center">
+                </div>
             </div>
-            <div class="col-sm-6 col-md-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem dolor iure assumenda a, earum sequi magnam eaque odio aliquam, itaque impedit repellat eveniet esse labore aliquid officia in, alias facilis?</div>
+        </div>
+    </div>      
+    
+    <div class="container-fluid">
+        <div class="row text-center">
+            <div class="col-sm-6 col-md-4 text-center">
+                    <i class="material-icons">web</i>
+                    <br>
+                    <h><strong>Simple Website Development</strong></h>
+                    <div class="border-small"></div>
+                    <p>Do you have an idea for website? I create simple and beautiful websites that reflects your personal taste.</p>
+            </div>
+            <div class="col-sm-6 col-md-4 text-center">
+                    <i class="material-icons">swap_vert</i>
+                    <br>
+                    <h><strong>PSD to HTML5/CSS conversion</strong></h>
+                    <div class="border-small"></div>
+                    <p>Do you have an idea for website? I create simple and beautiful websites that reflects your personal taste.</p>
+            </div>
+            <div class="col-sm-6 col-md-4 text-center">
+                    <i class="material-icons">devices</i>
+                    <br>
+                    <h><strong>Front – End Programming</strong></h>
+                    <div class="border-small"></div>
+                    <p>Do you have an idea for website? I create simple and beautiful websites that reflects your personal taste.</p>
+            </div>
         </div>
     </div>
+    <section>
+        <div class="container">
+            <div class="section-title">
+                <h2 class="text-center">PORTFOLIO</h2>
+                <div class="border"></div>
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                            <img class="d-block w-100" src="img/pexels-photo-640809.jpeg" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                            <img class="d-block w-100" src="img/pexels-photo-640783.jpeg" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                            <img class="d-block w-100" src="img/pexels-photo-640781.jpeg" alt="Third slide">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                </div>
+            </div>
+        </div>  
+    </section>   
+    </body> 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 </body>
 
 </html>

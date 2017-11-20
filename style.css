@@ -1,8 +1,40 @@
 .jumbotron {
     background: url("img/bg-3.jpg") no-repeat 0 center;
     background-size: cover;
+    color: white;
 }
 
+.center-heading {
+    text-align: center;
+    display: inline-block
+}          
+.center-line {
+    display:   inline-block;
+    text-align: center;
+}
+.material-icons {
+    color: black;
+    font-size: 70px;
+    text-align: center;
+}
+.section-title {
+    text-align: center;
+    padding-bottom:1cm
+}
+.border-small {
+    width: 60px;
+    margin:auto;
+    border-bottom: 1px solid #e9ecef;
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+.border {
+    width: 250px;
+    margin:auto;
+    border-bottom: 2px solid #e9ecef;
+    margin-top: 20px;
+    margin-bottom:20px;
+}
 @media (min-width: 992px) {
     .jumbotron {
         padding: 7rem 2rem;
